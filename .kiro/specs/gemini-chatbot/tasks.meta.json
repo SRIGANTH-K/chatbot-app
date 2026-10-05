@@ -1,0 +1,141 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Scaffold the project structure": [
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210139372
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210157851
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210234431
+      }
+    ],
+    "2. Build the Express backend server": [
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210139549
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210240304
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210496200
+      }
+    ],
+    "3. Build the Gemini client service": [
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210139714
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210502364
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210554671
+      }
+    ],
+    "4. Build the chat route": [
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210139880
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210561906
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791211086291
+      }
+    ],
+    "5. Build the frontend API utility": [
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210140059
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210562005
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791211086576
+      }
+    ],
+    "6. Build the UI components": [
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210140169
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791211092858
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791211244036
+      }
+    ],
+    "7. Wire everything together in `App.jsx`": [
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210140270
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791211250252
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791211386101
+      }
+    ],
+    "8. Add CSS styling": [
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791210140370
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791211393708
+      },
+      {
+        "executionId": "24bedc34-08bc-4642-934a-4577416922e4",
+        "chatSessionId": "sess_02177216-efc0-42bd-a62b-1b96f32516fc",
+        "timestamp": 1791212744330
+      }
+    ]
+  }
+}
