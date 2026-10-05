@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Nova AI Project Reminder",
+      "trigger": "SessionStart",
+      "action": {
+        "type": "agent",
+        "prompt": "This is the Nova AI chatbot project. Remind yourself of the key rules before starting:\n- Frontend: React (Vite) in client/src/ — ES modules, plain CSS in index.css\n- Backend: Node.js + Express in server/ — CommonJS, Groq API via groq-sdk\n- Model: openai/gpt-oss-120b via GROQ_API_KEY in server/.env\n- Never add: databases, auth, Docker, AWS, TypeScript, CSS frameworks\n- Windows file writes: always use [System.IO.File]::WriteAllText with UTF8\n- PowerShell command separator: semicolon, never &&\n- Start backend: cd server && node index.js (port 3001)\n- Start frontend: cd client && npm run dev (port 5173)"
+      }
+    }
+  ]
+}

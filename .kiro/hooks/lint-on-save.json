@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Lint JS/JSX on Save",
+      "trigger": "PostFileSave",
+      "matcher": "\\.(js|jsx)$",
+      "action": {
+        "type": "command",
+        "command": "cd \"d:\\AWS\\chatbot-app\\chatbot-app\\client\" && npx eslint \"src/**/*.{js,jsx}\" --max-warnings=0 2>&1 || echo \"[Lint] Fix the above ESLint errors before committing.\""
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "nova-ai-dev",
+  "description": "Development agent for the Nova AI chatbot project. Pre-configured for React frontend and Node.js/Express backend work with Groq API integration.",
+  "tools": [
+    "read",
+    "write",
+    "shell",
+    "edit",
+    "search",
+    "browser"
+  ],
+  "excludedTools": [
+    "knowledge"
+  ],
+  "includeMcpJson": true,
+  "includePowers": true,
+  "resources": [
+    "file://./.kiro/steering/tech-stack.md",
+    "file://./.kiro/steering/project-conventions.md",
+    "file://./.kiro/steering/build-and-run.md",
+    "file://./.kiro/steering/kiro-behavior.md"
+  ],
+  "permissions": {
+    "rules": [
+      {
+        "capability": "shell",
+        "match": [
+          "npm *",
+          "node *",
+          "npx *"
+        ],
+        "effect": "allow"
+      },
+      {
+        "capability": "shell",
+        "match": [
+          "git status",
+          "git diff *",
+          "git log *"
+        ],
+        "effect": "allow"
+      },
+      {
+        "capability": "write",
+        "match": [
+          "d:/AWS/chatbot-app/chatbot-app/client/src/**",
+          "d:/AWS/chatbot-app/chatbot-app/server/**"
+        ],
+        "effect": "allow"
+      }
+    ]
+  },
+  "prompt": "You are a focused development assistant for the Nova AI chatbot project.\n\nProject summary:\n- Frontend: React (Vite) in client/src/\n- Backend: Node.js + Express in server/\n- AI: Groq API using openai/gpt-oss-120b model via groq-sdk\n- API key: GROQ_API_KEY in server/.env\n- Single endpoint: POST /api/chat\n\nRules you must always follow:\n- Never add databases, auth, Docker, AWS, or TypeScript\n- All styles go in client/src/index.css only\n- Server uses CommonJS (require), client uses ES modules (import)\n- When writing files on Windows use [System.IO.File]::WriteAllText with UTF8 encoding\n- Use semicolons as command separators in PowerShell, never &&\n- Read existing files before editing them\n- Keep changes minimal — only change what is needed\n- Never expose GROQ_API_KEY in frontend code or HTTP responses",
+  "model": "claude-sonnet-5",
+  "welcomeMessage": "Nova AI Dev agent ready. I know your full project structure, tech stack rules, and coding conventions. What are you working on?"
+}

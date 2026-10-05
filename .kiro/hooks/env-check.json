@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Check GROQ_API_KEY on Session Start",
+      "trigger": "SessionStart",
+      "action": {
+        "type": "command",
+        "command": "node -e \"require('dotenv').config({ path: 'd:/AWS/chatbot-app/chatbot-app/server/.env' }); const k = process.env.GROQ_API_KEY || ''; if (!k) { console.error('[ENV] WARNING: GROQ_API_KEY is missing in server/.env — the backend will not start.'); process.exit(1); } else { console.log('[ENV] GROQ_API_KEY is set (' + k.length + ' chars). Backend is ready to start.'); }\""
+      }
+    }
+  ]
+}
